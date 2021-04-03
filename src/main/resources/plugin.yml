@@ -1,0 +1,25 @@
+name: ${project.name}
+version: ${project.version}
+description: ${project.description}
+main: net.justminecraft.plots.deny.JustPlotsDeny
+author: PureGero
+api-version: 1.13
+depend: [JustPlots]
+website: https://github.com/PureGero/JustPlots-Deny
+permissions:
+  justplots.deny:
+    description: Deny a player from your plot
+  justplots.deny.other:
+    description:  Deny a player from another player's plot
+  justplots.deny.bypass:
+    description:  Allow a player to bypass being denied
+  justplots.user:
+    description: All the user permissions
+    default: true
+    children:
+      justplots.deny: true
+  justplots.admin:
+    description: All the admin permissions
+    children:
+      justplots.deny.other: true
+      justplots.deny.bypass: true
