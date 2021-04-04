@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>net.justminecraft.plots.voxelsniper</groupId>
+    <groupId>net.justminecraft.plots.deny</groupId>
     <artifactId>JustPlots-Deny</artifactId>
     <version>1.0.0</version>
     <description>Allows players to deny other players from entering their plot in JustPlots</description>
