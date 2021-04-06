@@ -12,10 +12,5 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 1.11
-          distribution: 'adopt'
       - name: Build with Maven
         run: mvn --batch-mode --update-snapshots verify
-      - name: Publish package
-        run: mvn --batch-mode deploy
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

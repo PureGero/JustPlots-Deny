@@ -6,7 +6,7 @@
 
     <groupId>net.justminecraft.plots.deny</groupId>
     <artifactId>justplots-deny</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <description>Allows players to deny other players from entering their plot in JustPlots</description>
     
     <name>justplots-deny</name>
@@ -51,12 +51,12 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
-    
+
     <distributionManagement>
         <repository>
-            <id>github</id>
-            <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/PureGero/JustPlots-Deny</url>
+            <id>clojars</id>
+            <name>Clojars repository</name>
+            <url>https://repo.clojars.org</url>
         </repository>
     </distributionManagement>
     
