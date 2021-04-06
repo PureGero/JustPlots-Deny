@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>net.justminecraft.plots.deny</groupId>
-    <artifactId>JustPlots-Deny</artifactId>
+    <artifactId>justplots-deny</artifactId>
     <version>1.0.0</version>
     <description>Allows players to deny other players from entering their plot in JustPlots</description>
     
-    <name>JustPlots-Deny</name>
+    <name>justplots-deny</name>
     
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
