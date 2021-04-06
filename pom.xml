@@ -52,6 +52,14 @@
         </dependency>
     </dependencies>
     
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/PureGero/JustPlots-Deny</url>
+        </repository>
+    </distributionManagement>
+    
     <build>
         <defaultGoal>clean package</defaultGoal>
         <finalName>${project.artifactId}-${project.version}</finalName>
