@@ -1,4 +1,4 @@
-name: ${project.name}
+name: JustPlots-Deny
 version: ${project.version}
 description: ${project.description}
 main: net.justminecraft.plots.deny.JustPlotsDeny
