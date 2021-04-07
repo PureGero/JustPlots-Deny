@@ -9,7 +9,7 @@
     <version>1.0.1-SNAPSHOT</version>
     <description>Allows players to deny other players from entering their plot in JustPlots</description>
     
-    <name>justplots-deny</name>
+    <name>JustPlots-Deny</name>
     
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
