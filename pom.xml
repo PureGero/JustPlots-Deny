@@ -28,7 +28,7 @@
         </repository>
         <repository>
             <id>justplots-repo</id>
-            <url>https://raw.githubusercontent.com/PureGero/JustPlots/repository/</url>
+            <url>https://repo.clojars.org/</url>
         </repository>
     </repositories>
 
@@ -46,9 +46,8 @@
         </dependency>
         <dependency>
             <groupId>net.justminecraft.plots</groupId>
-            <artifactId>JustPlots</artifactId>
-            <version>0.9.5</version>
-            <scope>provided</scope>
+            <artifactId>justplots</artifactId>
+            <version>0.9.7-SNAPSHOT</version>
         </dependency>
     </dependencies>
 

@@ -3,7 +3,7 @@ package net.justminecraft.plots.deny;
 import net.justminecraft.plots.JustPlots;
 import net.justminecraft.plots.Plot;
 import net.justminecraft.plots.PlotInfoEntry;
-import net.justminecraft.plots.commands.InfoCommand;
+import net.justminecraft.plots.bstats.bukkit.Metrics;
 import net.justminecraft.plots.events.PlotEnterEvent;
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.ChatMessageType;
@@ -85,6 +85,8 @@ public class JustPlotsDeny extends JavaPlugin implements Listener {
         JustPlots.getCommandExecuter().addCommand(new DenyCommand());
         JustPlots.getCommandExecuter().addCommand(new UndenyCommand());
 
+        new Metrics(this, 10955);
+        
         new PlotInfoEntry("Denied players") {
             @Override
             public @Nullable BaseComponent[] getValue(@NotNull Plot plot) {
